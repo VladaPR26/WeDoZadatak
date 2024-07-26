@@ -1,0 +1,11 @@
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.Entities\bin\Debug\net8.0\WorkoutTracker.DAL.Entities.deps.json
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.Entities\bin\Debug\net8.0\WorkoutTracker.DAL.Entities.dll
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.Entities\bin\Debug\net8.0\WorkoutTracker.DAL.Entities.pdb
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.Entities\obj\Debug\net8.0\WorkoutTracker.DAL.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.Entities\obj\Debug\net8.0\WorkoutTracker.DAL.Entities.AssemblyInfoInputs.cache
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.Entities\obj\Debug\net8.0\WorkoutTracker.DAL.Entities.AssemblyInfo.cs
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.Entities\obj\Debug\net8.0\WorkoutTracker.DAL.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.Entities\obj\Debug\net8.0\WorkoutTracker.DAL.Entities.dll
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.Entities\obj\Debug\net8.0\refint\WorkoutTracker.DAL.Entities.dll
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.Entities\obj\Debug\net8.0\WorkoutTracker.DAL.Entities.pdb
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.Entities\obj\Debug\net8.0\ref\WorkoutTracker.DAL.Entities.dll

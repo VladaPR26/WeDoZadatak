@@ -1,0 +1,17 @@
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.DatabaseClient\bin\Debug\net8.0\WorkoutTracker.DAL.DatabaseClient.deps.json
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.DatabaseClient\bin\Debug\net8.0\WorkoutTracker.DAL.DatabaseClient.runtimeconfig.json
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.DatabaseClient\bin\Debug\net8.0\WorkoutTracker.DAL.DatabaseClient.dll
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.DatabaseClient\bin\Debug\net8.0\WorkoutTracker.DAL.DatabaseClient.pdb
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.DatabaseClient\bin\Debug\net8.0\WorkoutTracker.DAL.Entities.dll
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.DatabaseClient\bin\Debug\net8.0\WorkoutTracker.DAL.Entities.pdb
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.DatabaseClient\obj\Debug\net8.0\WorkoutTracker.DAL.DatabaseClient.csproj.AssemblyReference.cache
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.DatabaseClient\obj\Debug\net8.0\WorkoutTracker.DAL.DatabaseClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.DatabaseClient\obj\Debug\net8.0\WorkoutTracker.DAL.DatabaseClient.AssemblyInfoInputs.cache
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.DatabaseClient\obj\Debug\net8.0\WorkoutTracker.DAL.DatabaseClient.AssemblyInfo.cs
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.DatabaseClient\obj\Debug\net8.0\WorkoutTracker.DAL.DatabaseClient.csproj.CoreCompileInputs.cache
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.DatabaseClient\obj\Debug\net8.0\WorkoutTracker.DAL.DatabaseClient.csproj.CopyComplete
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.DatabaseClient\obj\Debug\net8.0\WorkoutTracker.DAL.DatabaseClient.dll
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.DatabaseClient\obj\Debug\net8.0\refint\WorkoutTracker.DAL.DatabaseClient.dll
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.DatabaseClient\obj\Debug\net8.0\WorkoutTracker.DAL.DatabaseClient.pdb
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.DatabaseClient\obj\Debug\net8.0\WorkoutTracker.DAL.DatabaseClient.genruntimeconfig.cache
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.DatabaseClient\obj\Debug\net8.0\ref\WorkoutTracker.DAL.DatabaseClient.dll
