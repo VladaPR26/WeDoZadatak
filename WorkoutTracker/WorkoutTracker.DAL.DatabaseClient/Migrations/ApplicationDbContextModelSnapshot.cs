@@ -94,17 +94,12 @@ namespace WorkoutTracker.DAL.DatabaseClient.Migrations
             modelBuilder.Entity("WorkoutTracker.DAL.Entities.Trainings.Training", b =>
                 {
                     b.HasOne("WorkoutTracker.DAL.Entities.Users.User", "User")
-                        .WithMany("Trainings")
+                        .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("User");
-                });
-
-            modelBuilder.Entity("WorkoutTracker.DAL.Entities.Users.User", b =>
-                {
-                    b.Navigation("Trainings");
                 });
 #pragma warning restore 612, 618
         }

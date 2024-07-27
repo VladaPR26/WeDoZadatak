@@ -27,7 +27,7 @@ public class ApplicationDbContext : DbContext
 
         modelBuilder.Entity<Training>()
             .HasOne(t => t.User)
-            .WithMany(u => u.Trainings)
+            .WithMany()
             .HasForeignKey(t => t.UserId);
 
         modelBuilder.Entity<Training>()

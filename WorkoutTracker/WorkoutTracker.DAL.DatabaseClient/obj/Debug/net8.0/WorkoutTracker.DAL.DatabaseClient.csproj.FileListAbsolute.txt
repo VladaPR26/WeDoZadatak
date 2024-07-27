@@ -9,6 +9,7 @@ C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.DatabaseCli
 C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.DatabaseClient\obj\Debug\net8.0\WorkoutTracker.DAL.DatabaseClient.AssemblyInfoInputs.cache
 C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.DatabaseClient\obj\Debug\net8.0\WorkoutTracker.DAL.DatabaseClient.AssemblyInfo.cs
 C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.DatabaseClient\obj\Debug\net8.0\WorkoutTracker.DAL.DatabaseClient.csproj.CoreCompileInputs.cache
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.DatabaseClient\obj\Debug\net8.0\WorkoutTracker.DAL.DatabaseClient.sourcelink.json
 C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.DatabaseClient\obj\Debug\net8.0\WorkoutTracker.DAL.DatabaseClient.csproj.CopyComplete
 C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.DatabaseClient\obj\Debug\net8.0\WorkoutTracker.DAL.DatabaseClient.dll
 C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker.DAL.DatabaseClient\obj\Debug\net8.0\refint\WorkoutTracker.DAL.DatabaseClient.dll

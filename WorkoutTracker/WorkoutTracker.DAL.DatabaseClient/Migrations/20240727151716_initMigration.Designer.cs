@@ -12,8 +12,8 @@ using WorkoutTracker.DAL.DatabaseClient.Migrations;
 namespace WorkoutTracker.DAL.DatabaseClient.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240726165037_firstMigration")]
-    partial class firstMigration
+    [Migration("20240727151716_initMigration")]
+    partial class initMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -97,17 +97,12 @@ namespace WorkoutTracker.DAL.DatabaseClient.Migrations
             modelBuilder.Entity("WorkoutTracker.DAL.Entities.Trainings.Training", b =>
                 {
                     b.HasOne("WorkoutTracker.DAL.Entities.Users.User", "User")
-                        .WithMany("Trainings")
+                        .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("User");
-                });
-
-            modelBuilder.Entity("WorkoutTracker.DAL.Entities.Users.User", b =>
-                {
-                    b.Navigation("Trainings");
                 });
 #pragma warning restore 612, 618
         }

@@ -3,8 +3,8 @@ C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\obj\Debug\net8.
 C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\obj\Debug\net8.0\WorkoutTracker.AssemblyInfoInputs.cache
 C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\obj\Debug\net8.0\WorkoutTracker.AssemblyInfo.cs
 C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\obj\Debug\net8.0\WorkoutTracker.csproj.CoreCompileInputs.cache
-C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\obj\Debug\net8.0\WorkoutTracker.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\obj\Debug\net8.0\WorkoutTracker.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\obj\Debug\net8.0\WorkoutTracker.sourcelink.json
 C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\bin\Debug\net8.0\appsettings.json
 C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\bin\Debug\net8.0\WorkoutTracker.exe
@@ -121,8 +121,10 @@ C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\bin\Debug\net8.
 C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\bin\Debug\net8.0\WorkoutTracker.Buissiness.dll
 C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\bin\Debug\net8.0\WorkoutTracker.DAL.DatabaseClient.dll
 C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\bin\Debug\net8.0\WorkoutTracker.DAL.Entities.dll
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\bin\Debug\net8.0\WorkoutTracker.Buissiness.pdb
 C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\bin\Debug\net8.0\WorkoutTracker.DAL.DatabaseClient.pdb
 C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\bin\Debug\net8.0\WorkoutTracker.DAL.Entities.pdb
 C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\obj\Debug\net8.0\staticwebassets.build.json
@@ -139,3 +141,6 @@ C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\obj\Debug\net8.
 C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\obj\Debug\net8.0\WorkoutTracker.pdb
 C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\obj\Debug\net8.0\WorkoutTracker.genruntimeconfig.cache
 C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\obj\Debug\net8.0\ref\WorkoutTracker.dll
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\obj\Debug\net8.0\WorkoutTracker.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
