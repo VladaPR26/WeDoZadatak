@@ -12,7 +12,7 @@ using WorkoutTracker.DAL.DatabaseClient.Migrations;
 namespace WorkoutTracker.DAL.DatabaseClient.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240727151716_initMigration")]
+    [Migration("20240727182416_initMigration")]
     partial class initMigration
     {
         /// <inheritdoc />
@@ -34,17 +34,15 @@ namespace WorkoutTracker.DAL.DatabaseClient.Migrations
                     b.Property<int>("CaloriesBurned")
                         .HasColumnType("int");
 
-                    b.Property<string>("Date")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("DurationTime")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<TimeSpan>("DurationTime")
+                        .HasColumnType("time");
 
                     b.Property<string>("Exercise")
                         .IsRequired()
@@ -57,12 +55,13 @@ namespace WorkoutTracker.DAL.DatabaseClient.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("PhysicalFatigue")
+                        .HasColumnType("int");
+
                     b.Property<Guid>("UserId")
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("TrainingId");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("Trainings");
                 });
@@ -92,17 +91,6 @@ namespace WorkoutTracker.DAL.DatabaseClient.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
-                });
-
-            modelBuilder.Entity("WorkoutTracker.DAL.Entities.Trainings.Training", b =>
-                {
-                    b.HasOne("WorkoutTracker.DAL.Entities.Users.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
                 });
 #pragma warning restore 612, 618
         }

@@ -18,13 +18,13 @@ public class UserController : ControllerBase
         _userService = userService;
     }
     [HttpPost]
-    public async Task<IActionResult> Register([FromBody] RegisterRequest user)
+    public async Task<IActionResult> Register([FromBody] RegisterRequest request)
     {
         if (!ModelState.IsValid)
         {
             return BadRequest(ModelState);
         }
-        await _userService.Register(user);
+        await _userService.Register(request);
         return Ok();
     }
     [HttpPost("login")]

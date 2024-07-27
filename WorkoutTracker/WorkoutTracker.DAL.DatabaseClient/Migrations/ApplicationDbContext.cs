@@ -26,11 +26,6 @@ public class ApplicationDbContext : DbContext
         base.OnModelCreating(modelBuilder);
 
         modelBuilder.Entity<Training>()
-            .HasOne(t => t.User)
-            .WithMany()
-            .HasForeignKey(t => t.UserId);
-
-        modelBuilder.Entity<Training>()
             .Property(t => t.Exercise)
             .HasConversion(
                 v => v.ToString(),

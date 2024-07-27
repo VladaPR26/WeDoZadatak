@@ -142,5 +142,4 @@ C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\obj\Debug\net8.
 C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\obj\Debug\net8.0\WorkoutTracker.genruntimeconfig.cache
 C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\obj\Debug\net8.0\ref\WorkoutTracker.dll
 C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\bin\Debug\net8.0\BCrypt.Net-Next.dll
-C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\obj\Debug\net8.0\WorkoutTracker.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Dejan\Desktop\WeDoZadatak\WorkoutTracker\WorkoutTracker\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

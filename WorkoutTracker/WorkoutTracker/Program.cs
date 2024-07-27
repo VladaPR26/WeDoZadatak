@@ -10,6 +10,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 
 using WorkoutTracker.Buissiness.Contracts;
+using WorkoutTracker.Buissiness.Services.Trainings;
 using WorkoutTracker.Buissiness.Services.Users;
 using WorkoutTracker.DAL.DatabaseClient.Migrations;
 using WorkoutTracker.DAL.DatabaseClient.Repositoris;
@@ -74,6 +75,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 // Register services and repositories
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<ITrainingRepository, TrainingRepository>();
+builder.Services.AddScoped<ITrainingService, TrainingService>();
 
 // Add controllers
 builder.Services.AddControllers();

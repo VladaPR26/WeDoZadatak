@@ -14,9 +14,9 @@ public class Training
     public string Name { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;
     public int Intensity { get; set; }
+    public int PhysicalFatigue { get; set; }
     public int CaloriesBurned { get; set; }
-    public string DurationTime { get; set; } = string.Empty;    
+    public TimeSpan DurationTime { get; set; }
     public ExerciseType Exercise { get; set; }
-    public string Date { get; set; } = string.Empty;
-    public User User { get; set; } 
+    public DateTime Date { get; set; }
 }
