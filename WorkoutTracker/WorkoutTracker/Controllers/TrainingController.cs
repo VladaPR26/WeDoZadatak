@@ -22,6 +22,22 @@ public class TrainingController : ControllerBase
         return Ok(response);
     }
 
+    [HttpGet("{month:int}")]
+
+    public async Task<ActionResult> GetTrainingsByMonth(int month)
+    {
+        var response = await _trainingService.GetTrainingsByWeeksInMonthAsync(month);
+        return Ok(response);
+    }
+
+    [HttpPost("calculate")]
+    public async Task<IActionResult> CalculateMonthlyReport([FromBody] MonthlyReportRequest request)
+    {
+        var response = await _trainingService.CalculateMonthlyReport(request.Month);
+        return Ok(response);
+    }
+
+
     [HttpPost]
     [Authorize]
     public async Task<IActionResult> AddTraining([FromBody] TrainingRequest request)
@@ -32,6 +48,5 @@ public class TrainingController : ControllerBase
         }
         await _trainingService.AddTrainingAsync(request);
         return Ok();
-
     }
 }

@@ -12,4 +12,5 @@ public interface ITrainingRepository
 {
     Task AddTrainingAsync(Training training);
     Task<IEnumerable<Training>> GetTrainingsByUserId(Guid userId);
+    Task<IEnumerable<Training>> GetTrainingsByMonth(int month);
 }
