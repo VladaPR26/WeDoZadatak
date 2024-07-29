@@ -40,9 +40,9 @@ public class TrainingService : ITrainingService {
        await _trainingRepository.AddTrainingAsync(training);
     }
 
-    public async Task<Dictionary<int, List<Training>>> GetTrainingsByWeeksInMonthAsync(int month)
+    public async Task<Dictionary<int, List<Training>>> GetTrainingsByWeeksInMonthAsync(int month,Guid userId)
     {
-        List<Training> trainings = (await _trainingRepository.GetTrainingsByMonth(month)).ToList();
+        List<Training> trainings = (await _trainingRepository.GetTrainingsByMonthAndUserId(month,userId)).ToList();
         // Find the first day of the month
         var firstDayOfMonth = new DateTime(2024, month, 1);
         var firstDayOfWeek = CultureInfo.CurrentCulture.DateTimeFormat.FirstDayOfWeek;
@@ -75,48 +75,48 @@ public class TrainingService : ITrainingService {
             trainings = trainings
         }; 
         return response;
-    }
-
-    public async Task<MonthlyReport> CalculateMonthlyReport(int month)
+    } 
+    public async Task<MonthlyReport> CalculateMonthlyReport(int month, Guid userId)
     {
         MonthlyReport monthlyReport=new MonthlyReport();
-        var trainingWeeks=await GetTrainingsByWeeksInMonthAsync(month);
-
-        TimeSpan trainingDuration = new TimeSpan(0, 0, 0);
-        int trainingCount = 0;
-        float trainingAverageIntensity = 0;
-        float trainingAveragePhysicalFatigue = 0;
+        var trainingWeeks=await GetTrainingsByWeeksInMonthAsync(month, userId);
 
         foreach (var trainings in trainingWeeks)
         {
             int key=trainings.Key;
-            trainingCount=trainings.Value.Count();
-            
-            foreach(var training in trainings.Value)
-            {
-                trainingAverageIntensity += training.Intensity;
-                trainingAveragePhysicalFatigue += training.PhysicalFatigue;
-                trainingDuration += training.DurationTime;
-            }
-            trainingAverageIntensity /= trainingCount;
-            trainingAveragePhysicalFatigue /= trainingCount;
-            trainingDuration /= trainingCount;
-
-            WeeklyReport weeklyReport = new WeeklyReport
-            {
-                TrainingCount = trainingCount,
-                TrainingAverageIntensity = trainingAverageIntensity,
-                TrainingAveragePhysicalFatigue = trainingAveragePhysicalFatigue,
-                TrainingDurations = trainingDuration
-            };
+            WeeklyReport weeklyReport = CalculateWeeklyReport(trainings.Value);
             monthlyReport.Report.Add(key, weeklyReport);
-            trainingAverageIntensity = 0;
-            trainingAveragePhysicalFatigue = 0;
-            trainingDuration = new TimeSpan(0,0,0);
         }
 
-
-
         return monthlyReport;
+    }
+
+    private WeeklyReport CalculateWeeklyReport(List<Training> trainings)
+    {
+        TimeSpan trainingDuration = new(0, 0, 0);
+        int trainingCount;
+        float trainingAverageIntensity = 0;
+        float trainingAveragePhysicalFatigue = 0;
+
+        trainingCount = trainings.Count();
+
+        foreach (var training in trainings)
+        {
+            trainingAverageIntensity += training.Intensity;
+            trainingAveragePhysicalFatigue += training.PhysicalFatigue;
+            trainingDuration += training.DurationTime;
+        }
+        trainingAverageIntensity /= trainingCount;
+        trainingAveragePhysicalFatigue /= trainingCount;
+        trainingDuration /= trainingCount;
+
+        WeeklyReport weeklyReport = new WeeklyReport
+        {
+            TrainingCount = trainingCount,
+            TrainingAverageIntensity = trainingAverageIntensity,
+            TrainingAveragePhysicalFatigue = trainingAveragePhysicalFatigue,
+            TrainingDurations = trainingDuration
+        };
+        return weeklyReport;
     }
 }

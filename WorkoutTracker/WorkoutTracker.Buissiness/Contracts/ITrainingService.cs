@@ -16,7 +16,7 @@ public interface ITrainingService
 {
     Task AddTrainingAsync(TrainingRequest request);
     Task<TrainingResponse> GetTrainingsByUserId(Guid userId);
-    Task<Dictionary<int, List<Training>>> GetTrainingsByWeeksInMonthAsync(int month);
-    Task<MonthlyReport> CalculateMonthlyReport(int month);
+    Task<Dictionary<int, List<Training>>> GetTrainingsByWeeksInMonthAsync(int month, Guid userId);
+    Task<MonthlyReport> CalculateMonthlyReport(int month, Guid userId);
 
 }

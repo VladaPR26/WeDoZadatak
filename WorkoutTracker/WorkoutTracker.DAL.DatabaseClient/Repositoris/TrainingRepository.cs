@@ -25,9 +25,9 @@ public class TrainingRepository:ITrainingRepository
         await _context.SaveChangesAsync();
     }
 
-    public async Task<IEnumerable<Training>> GetTrainingsByMonth(int month)
+    public async Task<IEnumerable<Training>> GetTrainingsByMonthAndUserId(int month,Guid userId)
     {
-        return await _context.Trainings.Where(training =>training.Date.Month==month).ToListAsync();
+        return await _context.Trainings.Where(training =>training.Date.Month==month && training.UserId==userId).ToListAsync();
     }
 
     public async Task<IEnumerable<Training>> GetTrainingsByUserId(Guid userId)
