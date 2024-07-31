@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WorkoutTracker.DAL.Entities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a88c7f867bbaca9eadcd6fc26667aadb6a8afaf7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2bf4b160f4ee22fe719f7c0f7ce7becae169b503")]
 [assembly: System.Reflection.AssemblyProductAttribute("WorkoutTracker.DAL.Entities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WorkoutTracker.DAL.Entities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,26 @@
+.report-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #f9f9f9;
+  }
+  
+  .report-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .report-container li {
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  
+  .report-container strong {
+    color: #333;
+  }
+  select{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
