@@ -31,7 +31,8 @@ export default function LoginForm() {
             });
             if (response.ok) {
               const data = await response.json();
-              Cookies.set('token', data)
+              const token=data.token;
+              Cookies.set('token', token)
               navigate('/training');
             } 
             else if(response.status==400) {
@@ -63,7 +64,6 @@ export default function LoginForm() {
           <label style={{ color: labelColor }}>{errorLabel.current}</label>
           <button type="submit">Login</button><br/>
           <a href='register'>I don't have an account</a>
-
         </form>
       </div>
     </div>

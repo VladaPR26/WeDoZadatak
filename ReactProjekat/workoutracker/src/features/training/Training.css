@@ -1,0 +1,31 @@
+
+.training-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  background-color: #f9f9f9;
+  max-width: 300px;
+  width: 100%; /* Za responzivnost, kartice će zauzeti celu širinu na manjim ekranima */
+  box-sizing: border-box; /* Osigurava da padding i border ne prelaze maksimalnu širinu */
+}
+
+.training-card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.training-card ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.training-card li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.training-card li:last-child {
+  border-bottom: none;
+}
