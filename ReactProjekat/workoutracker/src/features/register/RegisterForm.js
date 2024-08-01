@@ -1,4 +1,4 @@
-import React,{useState,useRef} from 'react'
+import React,{useRef} from 'react'
 import { useNavigate  } from 'react-router-dom';
 import "./RegisterForm.css"
 export default function RegisterForm() {
@@ -22,13 +22,13 @@ export default function RegisterForm() {
             if (response.ok) {
              navigate('/')
             } 
-            else if(response.status==400) {
-             console.log("Register error")
-              
+            else if(response.status==500) {
+              console.log("Register error")
+              alert("User with this email already exists")
             }
           } 
           catch (error) {
-              console.error('Login error:', error);
+              console.error('Registe error:', error);
             }    
     }
     

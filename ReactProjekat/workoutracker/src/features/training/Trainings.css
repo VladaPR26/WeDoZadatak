@@ -1,7 +1,7 @@
 .trainings-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 16px; /* Razmak između kartica */
+    gap: 16px; 
   }
 
 
@@ -9,4 +9,8 @@
     color: #000201fc;
     text-align: center;
     font-size: 55px;
+  }
+  button{
+    width: 200px;
+    margin-top: 10px;
   }

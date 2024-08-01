@@ -37,7 +37,12 @@ export default function LoginForm() {
             } 
             else if(response.status==400) {
               setLabelColor('red')
-              errorLabel.current="Pogresan email ili lozinka"
+              errorLabel.current="Wrong email or password"
+              
+            }
+            else if(response.status==500) {
+              setLabelColor('red')
+              errorLabel.current="Wrong email or password"
               
             }
           } 

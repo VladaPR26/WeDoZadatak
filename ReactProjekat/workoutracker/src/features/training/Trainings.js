@@ -4,7 +4,7 @@ import Cookies from 'js-cookie';
 import Training from './Training';
 import { DecodeToken } from '../../services/token-decoder';
 import './Trainings.css'
-
+import { Link } from 'react-router-dom';
 
 export default function Trainings() {
     const[trainings,setTrainings]=useState([]);
@@ -28,10 +28,10 @@ export default function Trainings() {
               setTrainings(data.trainings)
               console.log(data)
             } else if (response.status === 400) {
-              console.log('Get error');
+              console.log('Get trainings error');
             }
           } catch (error) {
-            console.error('Login error:', error);
+            console.error('Get trainings error:', error);
           }
         };
     
@@ -42,12 +42,14 @@ export default function Trainings() {
 
     return (
     <div>
-        <h1>Workout Tracker</h1>
         <div className='trainings-container'>
         {trainings.map((training) => (
         <Training key={training.trainingId} training={training} />
         ))}
         </div>
+      <Link to="/addtraining">
+        <button>Add Training</button>
+      </Link>
     </div>
   )
 }
